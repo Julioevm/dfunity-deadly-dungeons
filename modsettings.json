@@ -1,0 +1,40 @@
+{
+    "Version": "1",
+    "Sections": [
+        {
+            "Name": "EnemySpawns",
+            "Description": "Settings for the increased enemy spawns.",
+            "IsAdvanced": false,
+            "Keys": [
+                {
+                    "Min": 0,
+                    "Max": 100,
+                    "Value": 20,
+                    "Name": "extraEnemyChance",
+                    "Description": "Likelyhood of every enemy spawn coming with extra enemies.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 5,
+                    "Value": 3,
+                    "Name": "extraEnemyCount",
+                    "Description": "Number of additional enemies that can spawn.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                },
+                {
+                    "Min": 1,
+                    "Max": 100,
+                    "Value": 50,
+                    "Name": "additionalEnemyChance",
+                    "Description": "Chance to spawn each additional enemy, if extraEnemyCount is more than 1.",
+                    "$version": "v1",
+                    "$type": "DaggerfallWorkshop.Game.Utility.ModSupport.ModSettings.SliderIntKey"
+                }
+            ],
+            "$version": "v1"
+        }
+    ]
+}

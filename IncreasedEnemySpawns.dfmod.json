@@ -1,0 +1,13 @@
+{
+    "ModTitle": "Deadly Dungeons",
+    "ModVersion": "0.1",
+    "ModAuthor": "Reaven",
+    "ContactInfo": "reaven666@gmail.com",
+    "DFUnity_Version": "0.14.5",
+    "ModDescription": "Increase the number of random enemies that you encounter in dungeons!",
+    "GUID": "877ceac7-5284-4ff2-a9c2-ed0f6d42d0e1",
+    "Files": [
+        "Assets/Game/Mods/IncreasedEnemySpawns/Scripts/IncreasedEnemySpawns.cs",
+        "Assets/Game/Mods/IncreasedEnemySpawns/modsettings.json"
+    ]
+}
